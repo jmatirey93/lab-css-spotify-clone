@@ -71,7 +71,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: grey;
+    color: grey;
     transition: ease-in .1s;
 }
 
@@ -90,6 +90,8 @@ nav a:hover {
     display: flex;
     align-items: center;
 }
+
+/* SECTION 1 */
 
 .section1 {
     background-image: url(../images/landing1.jpg);
@@ -115,6 +117,49 @@ nav a:hover {
     font-size: 1.5rem;
 }
 
+/* SECTION 2 */
+
+.section2 {
+    margin: 5rem 0;
+}
+.section2 h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+
+}
+
+.article-container article  img{
+    width: 12rem;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article-container article {
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+.article-container article h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--background-green);
+    text-align: center;
+}
+
+.article-container article p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: grey;
+}
+
 @media screen and (min-width: 600px) {
     .logo {
         margin-left: 8rem;
@@ -137,6 +182,51 @@ nav a:hover {
     .text-container p {
         font-size: 2rem;
     }
+
+
+
+   /*  SECTION 2 */
+
+ .section2 h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+
+}
+
+.article-container article  img{
+    width: 16rem;
+}
+
+.article-container {
+    all:unset;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.article-container article {
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+.article-container article h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--background-green);
+    text-align: center;
+}
+
+.article-container article p {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: grey;
+}
+
+
 }
 @media screen and (min-width: 800px) {
     .burger {
